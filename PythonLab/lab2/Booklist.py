@@ -25,8 +25,8 @@ booklist[1][1] = 550
 
 # 4. Sort the list by book names
 
-# booklist.sort()
-# print(booklist)
+booklist.sort()
+print(booklist)
 
 # 5. Sort the list by prices
 
@@ -62,8 +62,8 @@ for book in booklist:
         minbook=book
         minprice=book[1]
 
-# print(maxbook)
-# print(minbook)
+print(maxbook)
+print(minbook)
 
 # print(booklist[0])
 # print(booklist[-1])

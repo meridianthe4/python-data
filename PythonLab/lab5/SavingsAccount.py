@@ -1,11 +1,11 @@
 
-from AccountMain import Account
+from PythonLab.lab5.AccountMain import Account
 # Create SavingsAccount as sub class of account - additional field (type - personal/corporate etc)
 # implement withdraw and deposit such that
 # - maximum upto 1 lakh can be deposited in an account at a time
 # - Min balance 5000 must be maintained while withdrawal (if type = corporate you withdraw full amount = balance)
 
-class Saving(Account):
+class SavingsAccount(Account):
     def __init__(self, acc_id, name, balance,type):
         super().__init__(acc_id, name, balance)
         self._type = type
